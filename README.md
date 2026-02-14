@@ -1,1 +1,0 @@
-# Accident-Severity-Prediciton-using-PySparkML
