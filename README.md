@@ -15,8 +15,6 @@ A comprehensive big data analytics project using **PySpark** to analyze motor ve
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -364,11 +362,6 @@ predictions.select("SEVERITY", "prediction", "probability").show()
 - [ ] **API Endpoint**: REST API for predictions
 - [ ] **Model Monitoring**: MLflow integration
 
-### Scalability
-- [ ] **Cloud Deployment**: AWS EMR or Databricks
-- [ ] **Data Lake**: S3/HDFS integration
-- [ ] **Distributed Training**: Multi-node cluster setup
-
 ## 📈 Key Insights
 
 From the analysis, we can derive:
@@ -388,39 +381,12 @@ This project demonstrates:
 - **Model Comparison**: Evaluating multiple algorithms
 - **Data Visualization**: Communicating insights effectively
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/NewAnalysis`)
-3. Commit changes (`git commit -m 'Add new analysis'`)
-4. Push to branch (`git push origin feature/NewAnalysis`)
-5. Open a Pull Request
-
-### Areas for Contribution
-- Additional visualizations
-- New feature engineering techniques
-- Alternative ML models
-- Performance optimizations
-- Documentation improvements
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👏 Acknowledgments
 
 - NYC Open Data for the Motor Vehicle Collisions dataset
 - Apache Spark community
 - XGBoost developers
 - Contributors and data science community
-
-## 📧 Contact
-
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/yourusername/motor-vehicle-collisions-analysis](https://github.com/yourusername/motor-vehicle-collisions-analysis)
 
 ---
 
